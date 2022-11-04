@@ -1,0 +1,87 @@
+.Weather {
+  background: linear-gradient(
+    114.9deg,
+    rgb(34, 34, 34) 8.3%,
+    rgb(0, 40, 60) 41.6%,
+    rgb(0, 143, 213) 93.4%
+  );
+  border: 1px solid rgb(0, 40, 60);
+  border-radius: 15px;
+  font-family: "Bree Serif", serif;
+  color: #ffffff;
+}
+
+.Weather ul {
+  list-style: none;
+}
+
+.Weather .today {
+  color: rgb(183, 177, 177);
+}
+.Weather .firstSection {
+  background: linear-gradient(
+    89deg,
+    rgb(21, 74, 189) 0.1%,
+    rgb(26, 138, 211) 51.5%,
+    rgb(72, 177, 234) 100.2%
+  );
+  border: 1px solid rgb(26, 138, 211);
+  border-radius: 15px;
+  box-shadow: 0px 10px 5px rgb(26, 138, 211);
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top: 15px;
+}
+.Weather .secondSection {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.Weather .search-engine {
+  margin-bottom: 40px;
+}
+.Weather .submit {
+  border-radius: 5px;
+}
+
+.first {
+  margin: 15px;
+}
+.Weather .image {
+  width: 10%;
+}
+.Weather .btn-primary {
+  padding: 3px 10px;
+  margin: 0;
+}
+.Weather .temperature {
+  font-size: 50px;
+  font-weight: bold;
+}
+.main-information {
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  height: 100%;
+  color: rgb(183, 177, 177);
+}
+.atmosphere {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 0%;
+  font-size: 10px;
+}
+.atmosphere .day {
+  color: rgb(183, 177, 177);
+}
+.atmosphere .temp {
+  font-size: 15px;
+}
+.Weather .dayTemperature {
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 40px 15px;
+  margin: 0 auto;
+  text-align: center;
+}
