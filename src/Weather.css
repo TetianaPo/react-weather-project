@@ -14,10 +14,13 @@
 .Weather ul {
   list-style: none;
 }
-
-.Weather .today {
-  color: rgb(183, 177, 177);
+.Weather h5,
+.today {
+  margin: 0px;
+  padding: 0;
+  font-size: 18px;
 }
+
 .Weather .firstSection {
   background: linear-gradient(
     89deg,
@@ -55,14 +58,14 @@
   margin: 0;
 }
 .Weather .temperature {
-  font-size: 50px;
+  font-size: 100px;
   font-weight: bold;
 }
 .main-information {
   border: 1px solid rgb(26, 138, 211);
   border-radius: 15px;
   margin: 0 auto;
-  padding: 50px 15px;
+  padding: 30px 15px;
   height: 100%;
   color: rgb(183, 177, 177);
   background: linear-gradient(
@@ -74,9 +77,9 @@
 }
 .Weather .unit {
   position: relative;
-  margin-left: 60px;
+  margin-left: 140px;
   font-size: 26px;
-  top: -62px;
+  top: -110px;
 }
 .atmosphere {
   text-align: center;
