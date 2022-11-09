@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
-import { responsivePropType } from "react-bootstrap/esm/createUtilityClasses";
+import TodaysDate from "./TodaysDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -16,7 +16,7 @@ export default function Weather(props) {
       feels_like: response.data.temperature.feels_like,
       iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png`,
       condition: response.data.condition.icon,
-      date: "Nov 8, 7:00",
+      date: new Date(response.data.time * 1000),
     });
   }
 
@@ -44,8 +44,11 @@ export default function Weather(props) {
               </div>
             </div>
           </form>
+
           <h1> 📍{weatherData.city}</h1>
-          <h5> {weatherData.date}</h5>
+          <h5>
+            <TodaysDate date={weatherData.date} />
+          </h5>
           <ul>
             <li>
               <img
