@@ -41,10 +41,14 @@
   padding-right: 15px;
 }
 .Weather .search-engine {
-  margin-bottom: 40px;
+  margin: 0px 40px;
 }
 .Weather .submit {
   border-radius: 5px;
+  margin: 0px 0px;
+}
+.Weather form {
+  margin-bottom: 40px;
 }
 
 .first {
@@ -55,7 +59,7 @@
 }
 .Weather .btn-primary {
   padding: 3px 10px;
-  margin: 0;
+  margin: 0px 0px;
 }
 .Weather .temperature {
   font-size: 100px;
