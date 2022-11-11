@@ -1,5 +1,6 @@
 import React from "react";
 import TodaysDate from "./TodaysDate";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   return (
@@ -17,9 +18,9 @@ export default function WeatherInfo(props) {
               className="image"
             />
           </li>
+
           <li className="temperature">
-            {" "}
-            {Math.round(props.info.temperature)} <p className="unit">°C </p>
+            <WeatherTemperature celsius={props.info.temperature} />
           </li>
           <li className="today text-capitalize"> {props.info.description}</li>
         </ul>
