@@ -9,6 +9,7 @@
   border-radius: 80px;
   font-family: "Bree Serif", serif;
   color: #ffffff;
+  width: 600px;
 }
 
 .Weather ul {
@@ -29,7 +30,7 @@
     rgb(72, 177, 234) 100.2%
   );
   border: 1px solid rgb(26, 138, 211);
-  border-radius: 80px;
+  border-radius: 85px;
   box-shadow: 0px 10px 5px rgb(26, 138, 211);
   text-align: center;
   margin: 25px 15px;
@@ -40,6 +41,7 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .Weather .search-engine {
   margin: 0px 40px;
 }
@@ -107,10 +109,14 @@
   font-size: 20px;
   color: #ffffff;
 }
+.atmosphere .atmo_wind {
+  font-size: 15px;
+  color: #ffffff;
+}
 .Weather .dayTemperature {
   border: 1px solid rgb(0, 40, 60);
   border-radius: 15px;
-  padding: 40px 15px;
+  padding: 20px 15px;
   margin: 0 auto;
   text-align: center;
   background: linear-gradient(
@@ -123,5 +129,4 @@
 
 .tempNow {
   margin-right: 0px;
-  float: center;
 }

@@ -27,67 +27,23 @@ export default function WeatherInfo(props) {
         <div className="row first">
           <div className="col-3 main-information ">
             <ul className="atmosphere ">
-              <li>icon </li>
-              <li className="atmo"> {props.info.wind} km/h</li>
+              <li className="atmo">
+                {" "}
+                {props.info.wind} <span className="atmo_wind">km/h</span>
+              </li>
               <li> Wind</li>
             </ul>
           </div>
           <div className="col-3 main-information ">
             <ul className=" atmosphere ">
-              <li>icon </li>
               <li className="atmo"> {props.info.humidity} %</li>
               <li> Humidity </li>
             </ul>
           </div>
           <div className="col-3 main-information ">
             <ul className="atmosphere ">
-              <li>icon </li>
               <li className="atmo">{Math.round(props.info.feels_like)} °C</li>
               <li>Feels like</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div className="secondSection">
-        <div className="row">
-          <div className="col-2 dayTemperature">
-            <ul className="atmosphere">
-              <li className="showImage">🌞</li>
-              <br />
-              <li className="temp">25 °C</li>
-              <li className="day">Monday</li>
-            </ul>
-          </div>
-          <div className="col-2 dayTemperature">
-            <ul className="atmosphere">
-              <li className="showImage">🌞</li>
-              <br />
-              <li className="temp">25 °C</li>
-              <li className="day">Tuesday</li>
-            </ul>
-          </div>
-          <div className="col-2 dayTemperature">
-            <ul className="atmosphere">
-              <li className="showImage">🌞</li>
-              <br />
-              <li className="temp">25 °C</li>
-              <li className="day">Wednesday</li>
-            </ul>
-          </div>
-          <div className="col-2 dayTemperature">
-            <ul className="atmosphere">
-              <li className="showImage">🌞</li>
-              <br />
-              <li className="temp">25 °C</li>
-              <li className="day">Thursday</li>
-            </ul>
-          </div>
-          <div className="col-2 dayTemperature">
-            <ul className="atmosphere">
-              <li className="showImage">🌞</li>
-              <br />
-              <li className="temp">25 °C</li>
-              <li className="day">Friday</li>
             </ul>
           </div>
         </div>
