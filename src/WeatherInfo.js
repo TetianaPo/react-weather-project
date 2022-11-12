@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
         </h5>
         <ul>
           <li>
-            <WeatherIcon code={props.info.icon} />
+            <WeatherIcon code={props.info.icon} size={200} />
           </li>
 
           <li className="temperature">
