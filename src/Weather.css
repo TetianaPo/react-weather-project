@@ -50,7 +50,7 @@
 .first {
   margin: 50px;
 }
-.Weather .image {
+.Weather .canvas {
   width: 30%;
 }
 .Weather .btn-primary {
