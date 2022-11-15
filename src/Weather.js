@@ -10,6 +10,7 @@ export default function Weather(props) {
   function handleresponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coordinates,
       temperature: response.data.temperature.current,
       wind: response.data.wind.speed,
       city: response.data.city,
@@ -65,7 +66,7 @@ export default function Weather(props) {
           <WeatherInfo info={weatherData} />
         </div>
         <div className="secondSection">
-          <WeatherSecondSection />
+          <WeatherSecondSection coordinates={weatherData.coordinates} />
         </div>
       </div>
     );
