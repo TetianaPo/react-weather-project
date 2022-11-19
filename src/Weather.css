@@ -9,7 +9,9 @@
   border-radius: 80px;
   font-family: "Bree Serif", serif;
   color: #ffffff;
-  width: 600px;
+  max-width: 600px;
+
+  margin: 30px auto;
 }
 
 .Weather ul {
@@ -18,7 +20,7 @@
 .Weather h5,
 .today {
   margin: 0px;
-  padding: 0;
+  padding: 0px;
   font-size: 18px;
 }
 
@@ -57,7 +59,7 @@
   margin: 50px;
 }
 .Weather .image {
-  width: 30%;
+  width: 20%;
 }
 .Weather .btn-primary {
   padding: 3px 10px;
@@ -65,15 +67,15 @@
 }
 .Weather .temperature {
   text-align: center;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: bold;
 }
 .main-information {
   border: 1px solid rgb(26, 138, 211);
   border-radius: 15px;
   margin: 0 auto;
-  padding: 30px 15px;
-  height: 100%;
+  padding: 15px 2px;
+  height: 70%;
   color: rgb(183, 177, 177);
   background: linear-gradient(
     89deg,
@@ -86,18 +88,18 @@
 .Weather .unit {
   position: relative;
 
-  font-size: 26px;
+  font-size: 22px;
   top: -50px;
 }
 .atmosphere {
   text-align: center;
   margin: 0 auto;
   padding-left: 0%;
-  padding: 20px 0%;
+  padding: 5px 0%;
   font-size: 10px;
 }
 .atmosphere .showImage {
-  font-size: 40px;
+  font-size: 30px;
 }
 .atmosphere .day {
   color: rgb(183, 177, 177);
